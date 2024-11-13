@@ -1,0 +1,60 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #FFF5E6; 
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #FF8C00;
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  background-color: #FFFFFF; 
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px #0001; 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px; 
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #FF8C00; 
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #E07B00; 
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #FF8C00; 
+}
+
+output {
+  font-weight: bold;
+}
